@@ -1,0 +1,9 @@
+com\eod\dataTransfer\EodTechnicalsToDB.class
+com\eod\dataTransfer\SpurtsToDB.class
+com\eod\entities\EodTechData.class
+com\eod\spring\def\EodDefault.class
+com\eod\AppMain.class
+com\eod\entities\SpurtsOi.class
+com\eod\spring\utilities\GenUtils.class
+com\eod\repo\EodTechRepository.class
+com\eod\service\SpurtsAnalysis.class

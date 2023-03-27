@@ -1,0 +1,15 @@
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\repo\EodTechRepository.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\spring\def\EodDefault.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\service\EodTechDataHandlingService.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\service\SpurtsAnalysis.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\dataTransfer\SpurtsToDB.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\controller\EodTechDataAnalysisController.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\spring\utilities\GenUtils.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\controller\EodTechDataHandlingController.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\dataTransfer\EodTechnicalsToDB.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\AppMain.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\service\EodTechDataAnalysisServiceImpl.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\service\EodTechDataAnalysisService.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\service\EodTechDataHandlingServiceImpl.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\entities\SpurtsOi.java
+C:\Users\Ram\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-batch-example-main\spring-batch-example-main\src\main\java\com\eod\entities\EodTechData.java
