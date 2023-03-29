@@ -14,7 +14,7 @@ public class EodDefault {
 	public static String passWord = "root";
 	public static String eodBhavSavePath = "D:\\EodBhav\\";
 	public static String eodDataSavePath = "D:\\EodData\\";
-	public static String filePath = "C:\\Users\\Ram\\Documents\\workspace-spring-tool-suite-4-4.15.3.RELEASE\\spring-batch-example-main\\spring-batch-example-main\\";
+	public static String filePath = "C:\\Users\\Ram\\Documents\\git\\nse-eod-analysis\\nse-eod-analysis\\";
 	public static String hammerPattern = "HAMMER";
 	public static String shootingStarpattern = "SHOTTING_STAR";
 	public static String bullishMarubozuPattern = "BULLISH_MARUBOZU";
