@@ -8,5 +8,6 @@ public interface EodBhavDataAnalysisService {
 	
 	public Map<String,Double> getPriceVolumeIncreaseEod(EodBhavAnalysis eodBhavAnalysis);
 	public Map<String,Double> getPriceDecreaseVolumeIncreaseEod(EodBhavAnalysis eodBhavAnalysis);
+	public Map<String,Double> getInsideCandle(EodBhavAnalysis eodBhavAnalysis);
 
 }

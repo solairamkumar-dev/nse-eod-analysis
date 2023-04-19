@@ -95,4 +95,34 @@ public class EodBhavDataAnalysisServiceImpl implements EodBhavDataAnalysisServic
 		return result;
 	}
 
+	@Override
+	public Map<String, Double> getInsideCandle(EodBhavAnalysis eodBhavAnalysis) {
+		Map<String, Double> result = new HashMap<>();
+		List<EodBhavData> bhavBaseData = eodBhavRepository.getBhavData(eodBhavAnalysis.getBaseDate(),
+				eodBhavAnalysis.getVolume(), eodBhavAnalysis.getSeries());
+		List<EodBhavData> bhavCompareData = eodBhavRepository.getBhavData(eodBhavAnalysis.getCompareDate(),
+				eodBhavAnalysis.getVolume(), eodBhavAnalysis.getSeries());
+
+		for (int i = 0; i < bhavBaseData.size(); i++) {
+			EodBhavData baseData = bhavBaseData.get(i);
+			for (int j = 0; j < bhavCompareData.size(); j++) {
+				EodBhavData compareData = bhavCompareData.get(j);
+				{
+					if (baseData.getSymbol().equals(compareData.getSymbol())) {
+						if (compareData.getHigh() > baseData.getHigh() && compareData.getLow() < baseData.getLow()) {
+							// condition to check option only
+							if (eodBhavAnalysis.getOptionOnly().equals(EodDefault.yesInd)) {
+								if (EodDefault.getOptionStocksName().contains(baseData.getSymbol()))
+									result.put(baseData.getSymbol(), baseData.getClose());
+							} else if (eodBhavAnalysis.getOptionOnly().equals(EodDefault.noInd))
+								if (!EodDefault.getOptionStocksName().contains(baseData.getSymbol()))
+									result.put(baseData.getSymbol(), baseData.getClose());
+						}
+					}
+				}
+			}
+		}
+		return result;
+	}
+
 }
