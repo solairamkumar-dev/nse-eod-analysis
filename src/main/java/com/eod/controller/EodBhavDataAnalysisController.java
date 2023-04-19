@@ -27,4 +27,9 @@ public class EodBhavDataAnalysisController {
 	public Map<String, Double> getPriceDecreaseVolIncrease(@RequestBody EodBhavAnalysis eodBhavAnalysis) {
 		return eodBhavDataAnalysisService.getPriceDecreaseVolumeIncreaseEod(eodBhavAnalysis);
 	}
+	
+	@PostMapping(value = "/insideCanlde")
+	public Map<String,Double> getInsideCandle(@RequestBody EodBhavAnalysis eodBhavAnalysis) {
+		return eodBhavDataAnalysisService.getInsideCandle(eodBhavAnalysis);
+	}
 }

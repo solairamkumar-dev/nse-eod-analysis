@@ -40,7 +40,7 @@ public class GenUtils {
 			InputStream ins = link.openStream();
 			ReadableByteChannel chh = Channels.newChannel(link.openStream());
 			FileOutputStream fos = new FileOutputStream(new File(
-					"C:\\Users\\Ram\\Documents\\workspace-spring-tool-suite-4-4.15.3.RELEASE\\spring-batch-example-main\\spring-batch-example-main\\eod.csv"));
+					"C:\\Users\\Ram\\Documents\\git\\nse-eod-analysis\\nse-eod-analysis\\eod.csv"));
 			fos.getChannel().transferFrom(chh, 0, Long.MAX_VALUE);
 			fos.close();
 			chh.close();
